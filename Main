@@ -1,0 +1,45 @@
+import org.w3c.dom.ls.LSOutput;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        System.out.println("Laura");
+
+        double a = 2.3;
+        double b = 3.1;
+        System.out.println(a + b);
+
+        double imp = (b / a);
+        System.out.println(imp);
+
+        int x = 5;
+        int y = 8;
+        int z = 6;
+        int sum = (-x + y * z);
+        System.out.println(sum);
+
+        int e = 55;
+        System.out.println((e + y++) % y++);
+
+        int k = 20;
+        int f = 3;
+        System.out.println(k + -f * x / y);
+
+        short d = 2;
+        int inm = (x * f);
+        System.out.println(inm);
+
+        System.out.println(x + inm / f * d - y % f);
+
+
+
+
+
+
+
+
+    }
+
+
+
+}
